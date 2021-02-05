@@ -1,13 +1,8 @@
-/**
- * Template Name: iPortfolio - v2.0.3
- * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
+
 !(function ($) {
   "use strict";
 
-  // Hero typed
+ 
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
