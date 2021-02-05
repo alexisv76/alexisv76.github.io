@@ -214,6 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 75vh;
   background: url("/assets/img/fond.jpg") top center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #cv:before {
@@ -255,11 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
-  #cv {
-    background-attachment: fixed;
-  }
-}
+
 
 @media (max-width: 768px) {
   #cv h1 {
