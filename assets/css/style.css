@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #084298;
   overflow-y: auto;
 }
 
@@ -342,29 +342,29 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# langages
 --------------------------------------------------------------*/
-.facts {
+.langages {
   padding-bottom: 30px;
 }
 
-.facts .count-box {
+.langages .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.facts .count-box i {
+.langages .count-box i {
   display: block;
   font-size: 44px;
   color: #149ddd;
   float: left;
 }
 
-.facts .count-box span {
+.langages .count-box span {
   color: #f5f7fa;
  
 }
-.facts .count-box p {
+.langages .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
@@ -373,7 +373,7 @@ section {
   color: #122f57;
 }
 
-.facts .count-box a {
+.langages .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -383,21 +383,21 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.facts .count-box a:hover {
+.langages .count-box a:hover {
   color: #1f5297;
 }
 
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+.competences .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
 
-.skills .progress .skill {
+.competences .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
@@ -407,17 +407,17 @@ section {
   color: #050d18;
 }
 
-.skills .progress .skill .val {
+.competences .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
+.competences .progress-bar-wrap {
   background: #dce8f8;
   height: 10px;
 }
 
-.skills .progress-bar {
+.competences .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;

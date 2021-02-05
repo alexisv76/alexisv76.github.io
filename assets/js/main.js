@@ -21,7 +21,7 @@
   }
 
   $(window).on('scroll', function () {
-    var position = $('.facts').position(); //renvoie la position par rapport au haut de page et la gauche de la page
+    var position = $('.langages').position(); //renvoie la position par rapport au haut de page et la gauche de la page
 
     if ($(window).scrollTop() >= position.top - 300) {
       //Ton code à éxecuter
@@ -189,8 +189,8 @@
 
 
 
-  // Skills section
-  $('.skills-content').waypoint(function () {
+  // competences
+  $('.competences-content').waypoint(function () {
     $('.progress .progress-bar').each(function () {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
     });
