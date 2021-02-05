@@ -208,10 +208,6 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
-.mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
-}
-
 
 #cv {
   width: 100%;
@@ -230,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 }
 
-#cv .hero-container {
+#cv .cv-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
