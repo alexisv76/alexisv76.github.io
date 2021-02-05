@@ -113,7 +113,7 @@
 
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('.mobile-nav-toggle i').toggleClass('fa-plus fa-times');
+          $('.mobile-nav-toggle i').toggleClass('fa-plus fa-times text-blue');
         }
         return false;
       }
