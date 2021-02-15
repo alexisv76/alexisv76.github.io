@@ -195,7 +195,7 @@
 
 
  if(document.getElementsByClassName('profile-card-4')){
-    for (let i = 1; i < document.getElementsByClassName('profile-card-4 text-center').length  ; i++) {
+    for (let i = 1; i < document.getElementsByClassName('profile-card-4 text-center').length +1 ; i++) {
         document.getElementById('img'+i).addEventListener("click", function (event) {
             event.preventDefault();
             if(document.getElementById('bloc'+i).style.display == "none"){
