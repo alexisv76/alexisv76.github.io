@@ -553,3 +553,8 @@ section {
   max-width: 100%;
   height: 350px;
 }
+
+.img_card {
+  max-width: 100%;
+  height: 250px;
+}
