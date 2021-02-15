@@ -543,10 +543,7 @@ section {
   transform: skewY(3deg);
 }
 
-.profile-card-4:hover img {
-  transform: rotate(5deg) scale(1.1, 1.1);
-  filter: brightness(110%);
-}
+
 
 
 .img_perso {
