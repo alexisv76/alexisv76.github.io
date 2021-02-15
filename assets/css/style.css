@@ -481,12 +481,9 @@ section {
   overflow: hidden;
   position: relative;
   margin: 10px auto;
-  cursor: pointer;
+ 
 }
 
-.profile-card-4 img {
-  transition: all 0.25s linear;
-}
 
 .profile-card-4 .profile-content {
   position: relative;
